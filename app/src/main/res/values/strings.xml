@@ -13,11 +13,11 @@
     <!-- メッセージ -->
     <string name="great_blessing_message">おめでとう！！</string>
     <string name="middle_blessing_message">いい感じ！</string>
-    <string name="small_blessing_message">そこそこ</string>
-    <string name="blessing_message">普通です</string>
-    <string name="uncertain_luck_message">ドンマイ</string>
-    <string name="curse_message">そんな日もある</string>
-    <string name="great_curse_message">もう一回引こう</string>
+    <string name="small_blessing_message">ちょいラッキー</string>
+    <string name="blessing_message">普通が一番</string>
+    <string name="uncertain_luck_message">思わぬ落とし穴に気をつけましょう</string>
+    <string name="curse_message">アンラッキーデーです。</string>
+    <string name="great_curse_message">もう一回引いてみる…？</string>
 
 
 </resources>
