@@ -30,16 +30,16 @@ class ResultActivity : AppCompatActivity() {
                 return
             }
             0-> Results(R.string.great_curse, R.drawable.great_curse, R.string.great_curse_message)
-            1-> Results(R.string.curse, R.drawable.curse, R.string.curse_message)
-            2-> Results(R.string.uncertain_luck,R.drawable.uncertain_luck,R.string.uncertain_luck_message)
-            3-> Results(R.string.small_blessing, R.drawable.small_blessing, R.string.small_blessing_message)
-            4-> Results(R.string.blessing, R.drawable.blessing, R.string.blessing_message)
-            5-> Results(
+            in 1..2-> Results(R.string.curse, R.drawable.curse, R.string.curse_message)
+            in 3..5-> Results(R.string.uncertain_luck,R.drawable.uncertain_luck,R.string.uncertain_luck_message)
+            in 6..10-> Results(R.string.small_blessing, R.drawable.small_blessing, R.string.small_blessing_message)
+            in 11..16-> Results(R.string.blessing, R.drawable.blessing, R.string.blessing_message)
+            in 17..18-> Results(
                 R.string.middle_blessing,
                 R.drawable.middle_blessing,
                 R.string.middle_blessing_message
             )
-            6-> Results(
+            19-> Results(
                 R.string.great_blessing,
                 R.drawable.great_blessing,
                 R.string.great_blessing_message)

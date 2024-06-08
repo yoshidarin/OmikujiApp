@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         startButton.setOnClickListener(
             { v ->
                 // todo: 占いロジックを実行する
-                var result:Int = (0..6).random()
+                var result:Int = (0..19).random()
                 Log.d("TAG", result.toString())
                 // 結果画面に遷移させる
                 val intent = Intent(this@MainActivity, ResultActivity::class.java)
